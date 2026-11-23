@@ -1,0 +1,27 @@
+# 受試者資料、影格與分析輸出
+/datasets/
+/artifacts/
+/output_extract_frame/
+/feature_trial/
+/feature_trial_2/
+/gray_reference_trial/
+/gray_reference_trial_2/
+
+# 封裝的資料與影片
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.mp4
+*.mov
+*.avi
+*.webm
+*.png
+
+# Python 快取、本機環境與機密設定
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
